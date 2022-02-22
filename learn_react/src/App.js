@@ -9,6 +9,7 @@ import CreateContent from './components/CreateContent';
 class App extends Component {
   constructor(props){
     super(props);
+    this.max_content_id = 3;
     this.state = {
       mode:'welcome',
       selected_content_id:2,
